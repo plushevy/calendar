@@ -108,8 +108,138 @@ thead {
 /*......................................................*/
 
 /*планшет*/
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
 
+  .table_wrapper {
+    min-width: 320px;
+    position: relative;
+    overflow: scroll;
+    overflow-y: hidden;
+  }
+
+  div.calendar-nav_help {
+    display: none;
+  }
+
+  div.calendar-nav {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .calendar-nav a#calendar-nav_next,
+  .calendar-nav a.btn {
+    width: 40%;
+  }
+
+  .pinned {
+    display: block;
+  }
+
+  .time_table {
+    display: table;
+  }
+
+  table tbody tr:first-of-type,
+  table tbody tr:nth-of-type(2) {
+    display: none;
+  }
+
+   /*.calendar_table thead th:not(:first-of-type),
+   .calendar_table tbody td:not(:first-of-type) {
+     min-width: 60vw;
+   }*/
+
+   .calendar_table tr:first-of-type th:first-of-type {
+     display: none;
+   }
+
+   .calendar_table .calerndar_time-title {
+     display: none;
+   }
+
+
+   .pinned {
+     box-sizing: border-box;
+      position: absolute;
+      left: 15px;
+      top: 0;
+      background: #fff;
+      width: 15%;
+      min-width: 60px;
+      overflow: hidden;
+      overflow-x: scroll;
+    }
+
+    .pinned table th, .pinned table td {
+      white-space: nowrap;
+      border-left: none;
+      border-right: none;
+    }
+
+    .pinned table {
+      /*width: 100%;*/
+      /*border: none;*/
+    }
+
+    .scrolled {
+      margin-left: 15%;
+      overflow: scroll;
+      overflow-y: hidden;
+    }
+
+    .scrolled table {
+      border: 1px solid #000;
+    }
+
+    .calendar_table th,
+    .calendar_table td {
+      box-sizing: border-box;
+      width: 20vw;
+      min-width: 20vw;
+      padding: 0;
+    }
+
+    .table_prev {
+      /*content:'Пред';*/
+      cursor: pointer;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 20%;
+      z-index: 10;
+
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      vertical-align: middle;
+      color: black;
+      background: yellow;
+      border: 4px solid blue;
+      border-radius: 50%;
+      opacity: 0.3;
+    }
+
+    .table_next {
+      /*content:'След';*/
+      cursor: pointer;
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: 5%;
+      z-index: 10;
+
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      vertical-align: middle;
+      color: black;
+      background: yellow;
+      border: 4px solid blue;
+      border-radius: 50%;
+      opacity: 0.3;
+    }
 }
 
 /*мобила*/
@@ -201,8 +331,8 @@ thead {
     .calendar_table th,
     .calendar_table td {
       box-sizing: border-box;
-      width: 77vw;
-      min-width: 77vw;
+      width: 79vw;
+      min-width: 79vw;
       padding: 0;
     }
 

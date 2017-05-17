@@ -65,21 +65,17 @@
     	modalOverlay.removeClass("modal-overlay--show");
     });
 
+	// $(document).on("tap", ".table_prev", ".table_prev", function(e) {
+	// 	alert(e);
+	// });
+	//
 
-	$("body").on("click", ".table_prev", tapHandlerLeft);
-	$("body").on("click", ".table_next", tapHandlerRight);
+	$( ".table_prev" ).bind( "tap", tapHandler );
+	$( ".table_next" ).bind( "tap", tapHandler );
 
-
-	function tapHandlerLeft(){
-		var listLength = $('.calendar_today').innerWidth();
-		$('.scrolled').scrollTo('-='+listLength+'px', 800, {axis:'x'});
+	function tapHandler( event ){
+		alert(event);
+    $( event.target ).css('backgroundColor', 'red');
   }
-
-	function tapHandlerRight(){
-		var listLength = $('.calendar_today').innerWidth();
-		$('.scrolled').scrollTo('+='+listLength+'px', 800, {axis:'x'});
-  }
-
-
 
 }) (jQuery);
