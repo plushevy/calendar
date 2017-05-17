@@ -1,0 +1,1 @@
+(typeof window['njr_68_callback'] === 'function') && window['njr_68_callback']("", 404, "");

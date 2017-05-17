@@ -1,0 +1,29 @@
+$(document).ready(function() {
+    ga(function(tracker) {
+        clientid = tracker.get('clientId');
+        sbjs.init();
+        if (clientid !=null) {
+          $.ajax({
+              url: "/ajax/set_ga_table.php",
+              timeout: 5000,
+              data: {
+                "gaid": clientid,
+                "source":sbjs.get.current.src,
+                "medium":sbjs.get.current.mdm,
+                "campaign":sbjs.get.current.cmp,
+                "term":sbjs.get.current.trm
+              },
+              dataType: "json",
+              success: function(callback) {
+                $("#coupon_code").html('Ваш id - ' + callback.id);
+                console.log(callback);
+              },
+              error: function(XMLHttpRequest, textStatus, errorThrown) {
+                console.log(XMLHttpRequest);
+                console.log(textStatus);
+                console.log(errorThrown);
+              }
+          });
+        }
+    });
+});
