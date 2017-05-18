@@ -1,0 +1,586 @@
+<section class="section-50 section-lg-47 section-mac-top-103">
+
+	<div class="shell calendar-title_wrapper">
+	
+		<h1 class="text-center text-uppercase">Расписание</h1>
+		<div class="calendar-nav">
+				<a href="javascript:void(0);" class="btn btn-primary cal_not-active-btn" data-monday="08.05.2017">
+					&lt;&nbsp; Предыдущая неделя
+				</a><div class="calendar-nav_help">
+					<span class="calendar-help-label calendar_free_label">Свободно</span>
+					<span class="calendar-help-label calendar_part-time_label">Частично занято</span>
+					<span class="calendar-help-label calendar_employ_label">Занято</span>
+				</div><a href="javascript:void(0);" class="btn btn-primary" data-monday="22.05.2017" id="calendar-nav_next">
+					Следующая неделя &nbsp;&gt;
+				</a>
+			</div>
+	</div>
+		
+
+    <div class="shell table_wrapper">
+		
+        <div class="scrolled">
+        <table class="calendar_table responsive">
+            <thead>
+                <tr>
+                    <th rowspan="2" class="calendar_time">
+                        Время
+                    </th>
+					<th data-section="5" class="calendar_day calendar_today" "="">
+                        Понедельник                    </th>
+					<th data-section="5" class="calendar_day">
+                        Вторник                    </th>
+					<th data-section="5" class="calendar_day">
+                        Среда                    </th>
+					<th data-section="5" class="calendar_day">
+                        Четверг                    </th>
+					<th data-section="5" class="calendar_day">
+                        Пятница                    </th>
+					<th data-section="9" class="calendar_day">
+                        Суббота                    </th>
+					<th data-section="9" class="calendar_day">
+                        Воскресенье                    </th>
+                </tr>
+                <tr>
+					<th class="calendar_today">
+                        15 Мая                    </th>
+					<th>
+                        16 Мая                    </th>
+					<th>
+                        17 Мая                    </th>
+					<th>
+                        18 Мая                    </th>
+					<th>
+                        19 Мая                    </th>
+					<th>
+                        20 Мая                    </th>
+					<th>
+                        21 Мая                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="8" style="background-color: #fee;" id="hoursFrom" data-date="15.05.2017"></td>
+                </tr><tr>
+                </tr><tr>
+                    <td rowspan="2" class="calerndar_time-title">09:00</td>
+                    <td class="calendar_reservation" data-time="1494828000" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494914400" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495000800" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495087200" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495173600" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495260000" data-section="9">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495346400" data-section="9">
+                                            </td>
+                </tr>
+                <tr>
+                    <td class="calendar_reservation" data-time="1494829800" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494916200" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495002600" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495089000" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495175400" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495261800" data-section="9">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495348200" data-section="9">
+                                            </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">10:00</td>
+                    <td class="calendar_employ" data-time="1494831600" data-section="5">
+                        10:00-10:30                    </td>
+                    <td class="calendar_employ" data-time="1494918000" data-section="5">
+                        10:00-10:30                    </td>
+                    <td class="calendar_employ" data-time="1495004400" data-section="5">
+                        10:00-10:30                    </td>
+                    <td class="calendar_employ" data-time="1495090800" data-section="5">
+                        10:00-10:30                    </td>
+                    <td class="calendar_employ" data-time="1495177200" data-section="5">
+                        10:00-10:30                    </td>
+                    <td class="calendar_employ" data-time="1495263600" data-section="9">
+                        10:00-10:30                    </td>
+                    <td class="calendar_employ" data-time="1495350000" data-section="9">
+                        10:00-10:30                    </td>
+                </tr>
+                <tr>
+                    <td class="calendar_employ" data-time="1494833400" data-section="5">
+                        10:30-11:00                    </td>
+                    <td class="calendar_employ" data-time="1494919800" data-section="5">
+                        10:30-11:00                    </td>
+                    <td class="calendar_employ" data-time="1495006200" data-section="5">
+                        10:30-11:00                    </td>
+                    <td class="calendar_employ" data-time="1495092600" data-section="5">
+                        10:30-11:00                    </td>
+                    <td class="calendar_employ" data-time="1495179000" data-section="5">
+                        10:30-11:00                    </td>
+                    <td class="calendar_employ" data-time="1495265400" data-section="9">
+                        10:30-11:00                    </td>
+                    <td class="calendar_employ" data-time="1495351800" data-section="9">
+                        10:30-11:00                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">11:00</td>
+                    <td class="calenar_part-time" data-time="1494835200" data-section="5">
+                        Свободно 24 минут                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494921600" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495008000" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495094400" data-section="5">
+                                            </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495180800" data-section="5">
+                        Свободно 24 минут                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495267200" data-section="9">
+                                            </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495353600" data-section="9">
+                        Свободно 26 минут                    </td>
+                </tr>
+                <tr>
+                    <td class="calendar_reservation" data-time="1494837000" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494923400" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495009800" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495096200" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495182600" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495269000" data-section="9">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495355400" data-section="9">
+                                            </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">12:00</td>
+                    <td class="calenar_part-time" data-time="1494838800" data-section="5">
+                        Свободно 8 минут                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1494925200" data-section="5">
+                        Свободно 20 минут                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495011600" data-section="5">
+                        Свободно 24 минут                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495098000" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495184400" data-section="5">
+                                            </td>
+                    <td class="calendar_employ" data-time="1495270800" data-section="9">
+                        12:00-12:30                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495357200" data-section="9">
+                        Свободно 24 минут                    </td>
+                </tr>
+                <tr>
+                    <td class="calendar_reservation" data-time="1494840600" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494927000" data-section="5">
+                                            </td>
+                    <td class="calendar_employ" data-time="1495013400" data-section="5">
+                        12:30-13:00                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495099800" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495186200" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495272600" data-section="9">
+                                            </td>
+                    <td class="calendar_employ" data-time="1495359000" data-section="9">
+                        12:30-13:00                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">13:00</td>
+                    <td class="calendar_employ" data-time="1494842400" data-section="5">
+                        13:00-13:30                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1494928800" data-section="5">
+                        Свободно 15 минут                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495015200" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495101600" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495188000" data-section="5">
+                                            </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495274400" data-section="9">
+                        Свободно 2 минуты                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495360800" data-section="9">
+                        Свободно 11 минут                    </td>
+                </tr>
+                <tr>
+                    <td class="calendar_employ" data-time="1494844200" data-section="5">
+                        13:30-14:00                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494930600" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495017000" data-section="5">
+                                            </td>
+                    <td class="calendar_employ" data-time="1495103400" data-section="5">
+                        13:30-14:00                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495189800" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495276200" data-section="9">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495362600" data-section="9">
+                                            </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">14:00</td>
+                    <td class="calendar_employ" data-time="1494846000" data-section="5">
+                        14:00-14:30                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1494932400" data-section="5">
+                        Свободно 10 минут                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495018800" data-section="5">
+                        Свободно 22 минут                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495105200" data-section="5">
+                        Свободно 21 минут                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495191600" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495278000" data-section="9">
+                                            </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495364400" data-section="9">
+                        Свободно 4 минут                    </td>
+                </tr>
+                <tr>
+                    <td class="calendar_reservation" data-time="1494847800" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494934200" data-section="5">
+                                            </td>
+                    <td class="calendar_employ" data-time="1495020600" data-section="5">
+                        14:30-15:00                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495107000" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495193400" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495279800" data-section="9">
+                                            </td>
+                    <td class="calendar_employ" data-time="1495366200" data-section="9">
+                        14:30-15:00                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">15:00</td>
+                    <td class="calendar_lunch-break" data-time="1494849600" data-section="5">
+                        15.00-15.30                    </td>
+                    <td class="calendar_lunch-break" data-time="1494936000" data-section="5">
+                        15.00-15.30                    </td>
+                    <td class="calendar_lunch-break" data-time="1495022400" data-section="5">
+                        15.00-15.30                    </td>
+                    <td class="calendar_lunch-break" data-time="1495108800" data-section="5">
+                        15.00-15.30                    </td>
+                    <td class="calendar_lunch-break" data-time="1495195200" data-section="5">
+                        15.00-15.30                    </td>
+                    <td class="calendar_lunch-break" data-time="1495281600" data-section="9">
+                        15.00-15.30                    </td>
+                    <td class="calendar_lunch-break" data-time="1495368000" data-section="9">
+                        15.00-15.30                    </td>
+                </tr>
+                <tr>
+                    <td class="calendar_lunch-break" data-time="1494851400" data-section="5">
+                        15.30-16.00                    </td>
+                    <td class="calendar_lunch-break" data-time="1494937800" data-section="5">
+                        15.30-16.00                    </td>
+                    <td class="calendar_lunch-break" data-time="1495024200" data-section="5">
+                        15.30-16.00                    </td>
+                    <td class="calendar_lunch-break" data-time="1495110600" data-section="5">
+                        15.30-16.00                    </td>
+                    <td class="calendar_lunch-break" data-time="1495197000" data-section="5">
+                        15.30-16.00                    </td>
+                    <td class="calendar_lunch-break" data-time="1495283400" data-section="9">
+                        15.30-16.00                    </td>
+                    <td class="calendar_lunch-break" data-time="1495369800" data-section="9">
+                        15.30-16.00                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">16:00</td>
+                    <td class="calendar_lunch-break" data-time="1494853200" data-section="5">
+                        16.00-16.30                    </td>
+                    <td class="calendar_lunch-break" data-time="1494939600" data-section="5">
+                        16.00-16.30                    </td>
+                    <td class="calendar_lunch-break" data-time="1495026000" data-section="5">
+                        16.00-16.30                    </td>
+                    <td class="calendar_lunch-break" data-time="1495112400" data-section="5">
+                        16.00-16.30                    </td>
+                    <td class="calendar_lunch-break" data-time="1495198800" data-section="5">
+                        16.00-16.30                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495285200" data-section="9">
+                        Свободно 18 минут                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495371600" data-section="9">
+                                            </td>
+                </tr>
+                <tr>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494855000" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494941400" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495027800" data-section="5">
+                                            </td>
+                    <td class="calendar_employ" data-time="1495114200" data-section="5">
+                        16:30-17:00                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495200600" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495287000" data-section="9">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495373400" data-section="9">
+                                            </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">17:00</td>
+                    <td class="calendar_employ" data-time="1494856800" data-section="5">
+                        17:00-17:30                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1494943200" data-section="5">
+                        Свободно 5 минут                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495029600" data-section="5">
+                        Свободно 12 минут                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495116000" data-section="5">
+                                            </td>
+                    <td class="calendar_employ" data-time="1495202400" data-section="5">
+                        17:00-17:30                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495288800" data-section="9">
+                        Свободно 24 минут                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495375200" data-section="9">
+                        Свободно 10 минут                    </td>
+                </tr>
+                <tr>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494858600" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494945000" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495031400" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495117800" data-section="5">
+                                            </td>
+                    <td class="calendar_employ" data-time="1495204200" data-section="5">
+                        17:30-18:00                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495290600" data-section="9">
+                        Свободно 10 минут                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495377000" data-section="9">
+                                            </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">18:00</td>
+                    <td class="calendar_employ" data-time="1494860400" data-section="5">
+                        18:00-18:30                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1494946800" data-section="5">
+                        Свободно 12 минут                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495033200" data-section="5">
+                        Свободно 24 минут                    </td>
+                    <td class="calendar_employ" data-time="1495119600" data-section="5">
+                        18:00-18:30                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495206000" data-section="5">
+                                            </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495292400" data-section="9">
+                        Свободно 15 минут                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495378800" data-section="9">
+                                            </td>
+                </tr>
+                <tr>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494862200" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494948600" data-section="5">
+                                            </td>
+                    <td class="calendar_employ" data-time="1495035000" data-section="5">
+                        18:30-19:00                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495121400" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495207800" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495294200" data-section="9">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495380600" data-section="9">
+                                            </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">19:00</td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1494864000" data-section="5">
+                        Свободно 26 минут                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1494950400" data-section="5">
+                        Свободно 24 минут                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495036800" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495123200" data-section="5">
+                                            </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495209600" data-section="5">
+                        Свободно 18 минут                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495296000" data-section="9">
+                        Свободно 24 минут                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495382400" data-section="9">
+                                            </td>
+                </tr>
+                <tr>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494865800" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494952200" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495038600" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495125000" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495211400" data-section="5">
+                                            </td>
+                    <td class="calendar_employ" data-time="1495297800" data-section="9">
+                        19:30-20:00                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495384200" data-section="9">
+                                            </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">20:00</td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1494867600" data-section="5">
+                        Свободно 2 минуты                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1494954000" data-section="5">
+                        Свободно 21 минут                    </td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1495040400" data-section="5">
+                        Свободно 6 минут                    </td>
+                    <td rowspan="2" class="calendar_lunch-break" data-time="1495126800" data-section="5">
+                        Техническое обслуживание аэротрубы                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495213200" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495299600" data-section="9">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495386000" data-section="9">
+                                            </td>
+                </tr>
+                <tr>
+                    <td class="calendar_employ" data-time="1494869400" data-section="5">
+                        20:30-21:00                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494955800" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495042200" data-section="5">
+                                            </td>
+                    <td class="calendar_employ" data-time="1495215000" data-section="5">
+                        20:30-21:00                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495301400" data-section="9">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495387800" data-section="9">
+                                            </td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">21:00</td>
+                    <td class="calenar_part-time calendar_set_reservation" data-time="1494871200" data-section="5">
+                        Свободно 24 минут                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494957600" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495044000" data-section="5">
+                                            </td>
+                    <td rowspan="2" class="calendar_lunch-break" data-time="1495130400" data-section="5">
+                        Техническое обслуживание аэротрубы                    </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495216800" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495303200" data-section="9">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495389600" data-section="9">
+                                            </td>
+                </tr>
+                <tr>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494873000" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1494959400" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495045800" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495218600" data-section="5">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495305000" data-section="9">
+                                            </td>
+                    <td class="calendar_reservation calendar_set_reservation" data-time="1495391400" data-section="9">
+                                            </td>
+                </tr>
+
+            </tbody>
+        </table>
+		<div class="table_prev"></div>
+		<div class="table_next"></div>
+		
+        </div>
+		
+		
+		<div class="pinned">
+			<table class="time_table">
+            <thead>
+                <tr>
+                    <th rowspan="2" class="calendar_time">
+                        Время
+                    </th>
+                </tr>
+                <tr>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="8" style="background-color: #fee;" id="hoursFrom" data-date="15.05.2017"></td>
+                </tr><tr>
+                </tr><tr>
+                    <td rowspan="2" class="calerndar_time-title">09:00</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">10:00</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">11:00</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">12:00</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">13:00</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">14:00</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">15:00</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">16:00</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">17:00</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">18:00</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">19:00</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">20:00</td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="calerndar_time-title">21:00</td>
+                </tr>
+                <tr>
+                </tr>
+
+            </tbody>
+        </table>
+		</div>
+		
+    </div>
+</section>
