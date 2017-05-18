@@ -110,28 +110,75 @@ thead {
 /*планшет*/
 @media (max-width: 768px) {
 
-  .table_wrapper {
-    min-width: 320px;
-    position: relative;
-    overflow: scroll;
-    overflow-y: hidden;
+  tr, th {
+    min-height: 26px;
+    height: 26px;
   }
 
-  div.calendar-nav_help {
-    display: none;
+  .calendar-title_wrapper {
+    max-width: 768px;
+    min-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
   }
+
+  .calendar-title_wrapper .btn{
+    font-size: 14px;
+    padding: 5px;
+    line-height: 1.7;
+    white-space: normal;
+  }
+
+  .table_wrapper {
+    max-width: 768px;
+    min-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    position: relative;
+    overflow: hidden;
+    /*overflow-y: hidden;*/
+  }
+
+  /*div.calendar-nav_help {
+    display: none;
+  }*/
 
   div.calendar-nav {
     margin: 10px 0;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: center;
+    align-content: center;
   }
 
   .calendar-nav a#calendar-nav_next,
   .calendar-nav a.btn {
     width: 40%;
   }
+
+  div.calendar-nav_help {
+    display: flex;
+    max-width: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    font-size: 10px;
+  }
+
+  .calendar-help-label {
+    margin-right: 0;
+    padding: 8px;
+    line-height: 5px;
+    height: auto;
+    vertical-align: middle;
+  }
+
 
   .pinned {
     display: block;
@@ -169,7 +216,7 @@ thead {
       width: 15%;
       min-width: 60px;
       overflow: hidden;
-      overflow-x: scroll;
+      /*overflow-x: scroll;*/
     }
 
     .pinned table th, .pinned table td {
@@ -185,7 +232,8 @@ thead {
 
     .scrolled {
       margin-left: 15%;
-      overflow: scroll;
+      overflow: hidden;
+      /*overflow: scroll;*/
       overflow-y: hidden;
     }
 
@@ -196,137 +244,78 @@ thead {
     .calendar_table th,
     .calendar_table td {
       box-sizing: border-box;
-      width: 20vw;
-      min-width: 20vw;
+      width: 27vw;
+      min-width: 27vw;
       padding: 0;
     }
 
     .table_prev {
-      /*content:'Пред';*/
       cursor: pointer;
       display: block;
       position: absolute;
-      top: 50%;
-      left: 20%;
       z-index: 10;
-
+      top: 50%;
+      left: 17%;
+      padding: 10px;
       width: 50px;
       height: 50px;
+
       text-align: center;
       vertical-align: middle;
-      color: black;
-      background: yellow;
-      border: 4px solid blue;
+
+      color: white;
+      /*font-size: 40px;
+      line-height: 30px;*/
+      background: white url('./img/Minimal-prev-icon.png') no-repeat;
+      background-size: contain;
+      background-position: center;
+      border: 6px solid #eee;
       border-radius: 50%;
-      opacity: 0.3;
+      opacity: 0.7;
     }
 
     .table_next {
-      /*content:'След';*/
       cursor: pointer;
       display: block;
       position: absolute;
-      top: 50%;
-      right: 5%;
       z-index: 10;
 
+      top: 50%;
+      right: 2%;
+      z-index: 10;
+      /*font-size: 40px;
+      line-height: 30px;*/
       width: 50px;
       height: 50px;
+      padding: 10px;
+
       text-align: center;
       vertical-align: middle;
-      color: black;
-      background: yellow;
-      border: 4px solid blue;
+
+      color: white;
+      background: white url('./img/Minimal-next-icon.png') no-repeat;
+      background-size: contain;
+      background-position: center;
+      border: 6px solid #eee;
       border-radius: 50%;
-      opacity: 0.3;
+      opacity: 0.7;
     }
 }
 
 /*мобила*/
-@media (max-width: 480px) {
+@media (max-width: 520px) {
 
-  .table_wrapper {
-    min-width: 320px;
-    position: relative;
-    overflow: scroll;
-    overflow-y: hidden;
+  .calendar-title_wrapper .btn{
+    font-size: 10px;
+    padding: 5px 0px;
+    line-height: 1.7;
+    white-space: normal;
   }
 
-  div.calendar-nav_help {
-    display: none;
+  tr, th {
+    min-height: 20px;
+    height: 20px;
   }
-
-  div.calendar-nav {
-    margin: 10px 0;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-  }
-
-  .calendar-nav a#calendar-nav_next,
-  .calendar-nav a.btn {
-    width: 40%;
-  }
-
-  .pinned {
-    display: block;
-  }
-
-  .time_table {
-    display: table;
-  }
-
-  table tbody tr:first-of-type,
-  table tbody tr:nth-of-type(2) {
-    display: none;
-  }
-
-   /*.calendar_table thead th:not(:first-of-type),
-   .calendar_table tbody td:not(:first-of-type) {
-     min-width: 60vw;
-   }*/
-
-   .calendar_table tr:first-of-type th:first-of-type {
-     display: none;
-   }
-
-   .calendar_table .calerndar_time-title {
-     display: none;
-   }
-
-
-   .pinned {
-     box-sizing: border-box;
-      position: absolute;
-      left: 15px;
-      top: 0;
-      background: #fff;
-      width: 15%;
-      min-width: 60px;
-      overflow: hidden;
-      overflow-x: scroll;
-    }
-
-    .pinned table th, .pinned table td {
-      white-space: nowrap;
-      border-left: none;
-      border-right: none;
-    }
-
-    .pinned table {
-      /*width: 100%;*/
-      /*border: none;*/
-    }
-
-    .scrolled {
-      margin-left: 15%;
-      overflow: scroll;
-      overflow-y: hidden;
-    }
-
-    .scrolled table {
-      border: 1px solid #000;
-    }
 
     .calendar_table th,
     .calendar_table td {
@@ -337,43 +326,48 @@ thead {
     }
 
     .table_prev {
-      /*content:'Пред';*/
-      cursor: pointer;
-      display: block;
-      position: absolute;
-      top: 50%;
-      left: 20%;
-      z-index: 10;
 
-      width: 50px;
-      height: 50px;
+      top: 50%;
+      left: 23%;
+      padding: 10px;
+      width: 40px;
+      height: 40px;
+
       text-align: center;
       vertical-align: middle;
-      color: black;
-      background: yellow;
-      border: 4px solid blue;
+
+      color: white;
+      font-size: 40px;
+      line-height: 30px;
+      background: white url('./img/Minimal-prev-icon.png') no-repeat;
+      background-size: contain;
+      background-position: center;
+      border: 6px solid transparent;
       border-radius: 50%;
-      opacity: 0.3;
+      opacity: 0.6;
     }
 
     .table_next {
-      /*content:'След';*/
-      cursor: pointer;
-      display: block;
-      position: absolute;
+
       top: 50%;
       right: 5%;
       z-index: 10;
+      font-size: 40px;
+      line-height: 30px;
+      width: 40px;
+      height: 40px;
+      padding: 10px;
 
-      width: 50px;
-      height: 50px;
       text-align: center;
       vertical-align: middle;
-      color: black;
-      background: yellow;
-      border: 4px solid blue;
+
+      color: white;
+      background: white url('./img/Minimal-next-icon.png') no-repeat;
+      background-size: contain;
+      background-position: center;
+      border: 6px solid transparent;
       border-radius: 50%;
-      opacity: 0.3;
+      opacity: 0.6;
     }
 
 

@@ -71,12 +71,12 @@
 
 
 	function tapHandlerLeft(){
-		var listLength = $('.calendar_today').innerWidth();
+		var listLength = $('.calendar_today').innerWidth() + 1;
 		$('.scrolled').scrollTo('-='+listLength+'px', 800, {axis:'x'});
   }
 
 	function tapHandlerRight(){
-		var listLength = $('.calendar_today').innerWidth();
+		var listLength = $('.calendar_today').innerWidth() + 1;
 		$('.scrolled').scrollTo('+='+listLength+'px', 800, {axis:'x'});
   }
 
